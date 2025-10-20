@@ -36,3 +36,17 @@ if (a > b) {
 } else {
   console, log("c is largest");
 }
+// 5.Print the grade based on marks: 80 and above → A, 60–79 → B,40–59 → C, Below 40 → F
+let marks = 72;
+if(marks >= 80){
+    console.log("Grade A");
+}
+else if(marks >= 60){
+    console.log('Grade B');
+}
+else if(marks >= 40){
+    console.log("Grade C");
+}
+else{
+    console.log("Grade F")
+}
