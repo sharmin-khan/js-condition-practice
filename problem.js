@@ -18,3 +18,12 @@ else if (number < 0){
 else{
     console.log("Zero")
 }
+
+// 3. If age is 18 or above, print "You can vote"; otherwise, print "You cannot vote."
+let age = 16;
+if(age >= 18){
+    console.log("You can vote")
+}
+else{
+    console.log("You cannot vote")
+}
